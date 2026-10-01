@@ -1,0 +1,24 @@
+[
+  {
+    "disease_name": "Sigatoka Leaf Spot (Yellow & Black Sigatoka)",
+    "crop": "Banana",
+    "pathogen": "Mycosphaerella musicola / Mycosphaerella fijiensis",
+    "affected_plant_part": "Leaves",
+    "symptoms": "Minute yellowish-green specks parallel to leaf veins, enlarging into linear streaks. Streaks turn brown to purplish-black with depressed grayish-white centers surrounded by yellow halo. Rapid coalescing leads to premature drying of leaves ('leaf burn'), reducing bunch weight and fruit filling.",
+    "favorable_conditions": "Continuous high humidity (>90%), leaf wetness from dew/rains, temperatures 23-28°C, poorly drained plantations.",
+    "risk_factors": "Overcrowded suckers, lack of desuckering, shaded damp understory, micro-sprinklers wetting canopy.",
+    "prevention": "Strict desuckering maintaining single follower sucker. Provide drainage ditches between banana rows. Strip severely spotted dead leaves ('deleafing') and burn.",
+    "management": "Foliar spray with Propiconazole 25% EC @ 1.0ml/L or Tridemorph 80% EC @ 1.0ml/L or Mineral oil (Banole) @ 10ml/L mixed with Mancozeb @ 2.0g/L. Repeat spray every 25-30 days during rainy monsoon season."
+  },
+  {
+    "disease_name": "Panama Wilt",
+    "crop": "Banana",
+    "pathogen": "Fusarium oxysporum f. sp. cubense (Foc Tropical Race 1 & Race 4)",
+    "affected_plant_part": "Vascular system, rhizome, pseudostem",
+    "symptoms": "Yellowing of lower leaves beginning from margins and advancing towards midrib. Petiole buckles and leaves hang collapsed around pseudostem like a skirt. Longitudinal splitting of pseudostem base. Discoloration of vascular strands from yellow to dark reddish-brown inside the corm.",
+    "favorable_conditions": "Acidic soils (pH 5.0-6.0), warm soil temperatures (25-30°C), poor drainage.",
+    "risk_factors": "Infected suckers from diseased mother orchards, flood irrigation carrying chlamydospores, nematode infestation.",
+    "prevention": "Plant disease-free certified tissue culture plantlets. Avoid susceptible varieties like Rasthali/Gros Michel in infested soils; use Cavendish (Grand Naine). Adjust soil pH with lime to >6.5.",
+    "management": "No chemical cure once vascular system is invaded. Uproot and burn infected plants in-situ. Apply 1-2 kg agricultural lime in the pit. Bio-control: Drench pit and rhizosphere with Trichoderma viride @ 50g + Pseudomonas fluorescens @ 50g enriched in FYM."
+  }
+]

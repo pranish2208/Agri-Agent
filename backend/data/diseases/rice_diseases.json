@@ -1,0 +1,35 @@
+[
+  {
+    "disease_name": "Rice Blast",
+    "crop": "Rice",
+    "pathogen": "Pyricularia oryzae (Magnaporthe oryzae)",
+    "affected_plant_part": "Leaves, Nodes, Neck of panicle",
+    "symptoms": "Spindle-shaped or eye-shaped lesions with gray or whitish centers and brown or reddish-brown borders. Severe infections cause coalescing spots, leaf drying ('blast'), black lesions at nodes leading to stem breakage, and rotten neck where panicles break and grains remain chaffy.",
+    "favorable_conditions": "High relative humidity (>90%), dew presence on leaves for 10-14 hours, cloudy weather, night temperatures between 19°C and 24°C, intermittent drizzle.",
+    "risk_factors": "Excessive doses of nitrogenous fertilizers, close planting with poor air circulation, susceptible cultivars, delayed transplanting.",
+    "prevention": "Use certified blast-resistant cultivars (e.g. ADT 37, CO 47, IR 64). Seed treatment with Tricyclazole 75 WP @ 2g/kg seed or Pseudomonas fluorescens @ 10g/kg seed. Avoid excess basal nitrogen.",
+    "management": "Spray Tricyclazole 75% WP @ 0.6g/L or Isoprothiolane 40% EC @ 1.5ml/L or Kasugamycin 3% SL @ 2.5ml/L upon noticing early leaf lesions. For biological control, foliar spray of Pseudomonas fluorescens @ 5g/L. Repeat at 5% panicle emergence to safeguard against neck blast."
+  },
+  {
+    "disease_name": "Sheath Blight",
+    "crop": "Rice",
+    "pathogen": "Rhizoctonia solani",
+    "affected_plant_part": "Leaf sheath and lower leaf blades",
+    "symptoms": "Oval or elliptical greenish-gray water-soaked spots with irregular dark reddish-brown margins on leaf sheaths near water line. Spots enlarge and coalesce upward to the flag leaf. Sclerotia (mustard seed-like bodies) form on affected surfaces.",
+    "favorable_conditions": "High temperature (28-32°C) combined with very high relative humidity (85-100%), dense plant canopy, continuous high water level.",
+    "risk_factors": "High planting density, excessive nitrogen application, heavy weed infestation acting as secondary hosts, poorly drained soils.",
+    "prevention": "Maintain proper plant spacing (SRI or 20x15 cm), practice Alternate Wetting and Drying (AWD) to reduce humidity within canopy, burn or compost stubbles from previous infected crop.",
+    "management": "Drain excess water from field. Foliar spray of Hexaconazole 5% EC @ 2ml/L or Validamycin 3% L @ 2ml/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1ml/L targeting the lower sheath zone."
+  },
+  {
+    "disease_name": "Bacterial Leaf Blight (BLB)",
+    "crop": "Rice",
+    "pathogen": "Xanthomonas oryzae pv. oryzae",
+    "affected_plant_part": "Leaves and tillers (Kresek phase in young plants)",
+    "symptoms": "Water-soaked stripes along leaf margins turning into yellow to straw-colored lesions with wavy margins progressing from tip downwards. Milky or amber bacterial ooze droplets visible in early morning. In seedlings, systemic infection causes sudden wilting ('Kresek phase').",
+    "favorable_conditions": "Severe rainstorms with strong winds, temperatures between 25-34°C, high humidity, flooded fields.",
+    "risk_factors": "Over-fertilization with nitrogen, clipping of seedling leaf tips before transplanting, deep standing water, cyclonic weather.",
+    "prevention": "Do not clip seedling tips during transplanting. Seed soaking in Streptocycline solution (0.01%) for 8 hours. Apply balanced N:P:K with split potash application.",
+    "management": "Drain field temporarily. Spray Copper Oxychloride 50 WP @ 2.5g/L mixed with Streptocycline @ 0.1g/L (1g in 10L water). Repeat after 10-12 days if wet weather persists. Avoid applying nitrogen while active lesions are advancing."
+  }
+]

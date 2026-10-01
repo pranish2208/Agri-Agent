@@ -1,0 +1,115 @@
+{
+  "id": "groundnut",
+  "name": "Groundnut",
+  "scientific_name": "Arachis hypogaea",
+  "family": "Fabaceae",
+  "description": "Premier oilseed and food legume crop in India, widely cultivated in Gujarat, Andhra Pradesh, Tamil Nadu, and Rajasthan. Characterized by geocarpic pod development (pegging underground). Sensitive to calcium deficiency (pops) and Tikka leaf spot.",
+  "climate": "Warm tropical climate with moderate and evenly distributed rainfall during growing season and dry weather at harvest.",
+  "temperature": {
+    "min_c": 15.0,
+    "max_c": 35.0,
+    "optimal_min_c": 22.0,
+    "optimal_max_c": 30.0
+  },
+  "rainfall": {
+    "min_annual_mm": 450.0,
+    "max_annual_mm": 900.0,
+    "optimal_annual_mm": 600.0,
+    "critical_stages": [
+      "Flowering (30-40 DAS)",
+      "Peg penetration into soil (40-55 DAS)",
+      "Pod development (60-80 DAS)"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Well-drained loose red sandy loam",
+      "Light alluvial loam",
+      "Friable sandy soils"
+    ],
+    "ph_min": 5.8,
+    "ph_max": 7.5,
+    "ph_optimal_min": 6.0,
+    "ph_optimal_max": 6.8,
+    "drainage_requirement": "Excellent aeration and friability needed in top 10 cm of soil to facilitate easy peg penetration. Heavy compacted clay soils severely restrict pegging and pod harvesting.",
+    "organic_matter_requirement": "Moderate (>0.5% OC); apply 10 tonnes/ha FYM or 2.5 tonnes vermicompost."
+  },
+  "planting_seasons": [
+    "Kharif (June - July sowing with monsoon arrival)",
+    "Rabi / Summer (November - January sowing under irrigation)"
+  ],
+  "seed_rate_per_ha": "120-140 kg/ha kernels for bunch types; 100-110 kg/ha for spreading types.",
+  "spacing": {
+    "row_to_row_cm": 30.0,
+    "plant_to_plant_cm": 10.0,
+    "population_per_ha": 333333
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Emergence & Seedling",
+      "day_start": 1,
+      "day_end": 25,
+      "description": "Kernel germination, taproot growth, and nodule initiation by Rhizobium bacteria.",
+      "critical_activities": ["Seed treatment with Rhizobium + Trichoderma (4g/kg)", "Pre-emergence herbicide spray (Pendimethalin)"],
+      "water_need": "Low",
+      "vulnerabilities": ["Collar rot (Aspergillus niger)", "Termite attack on seeds"]
+    },
+    {
+      "stage_name": "Vegetative & Flowering",
+      "day_start": 26,
+      "day_end": 45,
+      "description": "Copious yellow self-pollinating flowers appear in leaf axils.",
+      "critical_activities": ["Intercultivation and light weeding before pegs start forming", "Do NOT disturb soil after peg entry begins"],
+      "water_need": "High",
+      "vulnerabilities": ["Leaf miner", "Thrips transmitting Peanut bud necrosis", "Tikka leaf spot early signs"]
+    },
+    {
+      "stage_name": "Pegging & Pod Formation (Geocarpy)",
+      "day_start": 46,
+      "day_end": 75,
+      "description": "Gynophores (pegs) elongate downward, penetrate topsoil 3-5 cm, and swell horizontally into pods.",
+      "critical_activities": ["Crucial Gypsum application @ 400-500 kg/ha at pegging (supplies Calcium for shell hardening)", "Ensure soil moisture to keep topsoil soft"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Tikka disease (Cercospora arachidicola / Phaeoisariopsis personata)", "Rust", "White grub"]
+    },
+    {
+      "stage_name": "Pod Filling & Maturity",
+      "day_start": 76,
+      "day_end": 110,
+      "description": "Kernel oil accumulation, shell inner lining turns dark brown to black.",
+      "critical_activities": ["Light irrigation to soften soil 2 days before pulling", "Avoid excessive moisture to prevent in-situ seed germination"],
+      "water_need": "Low",
+      "vulnerabilities": ["Aflatoxin contamination (Aspergillus flavus) due to late season moisture stress or delay in post-harvest drying"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Sprinkler irrigation", "Check basin / Furrow"],
+    "total_water_requirement_mm": 500.0,
+    "critical_stages": ["Flowering", "Pegging", "Pod development"],
+    "frequency_days": "Every 10-12 days for light soils"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 25.0,
+    "phosphorus_kg_per_ha": 50.0,
+    "potassium_kg_per_ha": 75.0,
+    "basal_application": "Full NPK at sowing (legume fixes atmospheric N via root nodules).",
+    "top_dressing_schedule": [
+      "Crucial: Apply Gypsum @ 400 kg/ha at 40-45 DAS along the row zone and earth up slightly."
+    ],
+    "micronutrient_requirements": ["Ferrous sulphate 1% foliar spray with 0.1% citric acid against lime-induced iron chlorosis"]
+  },
+  "common_pests": ["Groundnut Leaf Miner (Aproaerema modicella)", "White Grub (Holotrichia consanguinea)", "Tobacco Caterpillar (Spodoptera litura)", "Thrips"],
+  "common_diseases": ["Tikka Leaf Spot (Early & Late Cercospora)", "Rust (Puccinia arachidis)", "Collar Rot (Aspergillus niger)", "Peanut Bud Necrosis Virus"],
+  "harvesting": {
+    "duration_days": "100-115 days for bunch varieties; 120-135 days for semi-spreading varieties",
+    "maturity_indices": [
+      "Yellowing and shedding of older leaves",
+      "Inner surface of shell turns dark blackish brown",
+      "Kernels attain typical pink/rose color and detach easily"
+    ],
+    "harvesting_method": "Pull entire plants manually or groundnut digger; invert plants in field for sun drying.",
+    "average_yield_per_ha": "2.0 - 2.8 tonnes/ha dry pods under irrigated conditions",
+    "post_harvest_care": "Dry pods to 8% moisture content before bagging to eliminate Aspergillus flavus and aflatoxin risk."
+  },
+  "authoritative_sources": ["ICAR-Directorate of Groundnut Research (DGR)", "TNAU Agritech Portal", "ICRISAT Groundnut Knowledge Base"]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "pest_name": "Banana Pseudostem Weevil",
+    "crop": "Banana",
+    "scientific_name": "Odoiporus longicollis",
+    "identification": "Dark reddish-brown to black snout beetle (12-15 mm) with elongated curved rostrum. Grub is legless, fleshy, and yellowish-white.",
+    "symptoms": "Adult lays eggs inside air chambers of pseudostem. Grubs bore extensive tunnels inside the pseudostem, causing reddish-brown jelly-like exudation from entry holes. Pseudostem weakens and topples over during heavy winds or bunch weight.",
+    "conditions": "High density orchards, neglected plantations with untidy old dried leaf sheaths.",
+    "prevention": "Field sanitation: clean old dry leaf sheaths from pseudostem. Use longitudinal split pseudostem traps or disc-on-stump traps (20 traps/acre) placed on ground with Beauveria bassiana.",
+    "management": "Stem injection or leaf axil drenching with Chlorpyrifos 20% EC @ 2.5ml/L or Azadirachtin 10,000 ppm @ 2ml/L. Swab pseudostem with carbaryl or chlorpyrifos suspension from 5th month onwards."
+  },
+  {
+    "pest_name": "Rhizome Weevil",
+    "crop": "Banana",
+    "scientific_name": "Cosmopolites sordidus",
+    "identification": "Shiny black weevil (10-12 mm) living in the soil, corm crevices, and root zone. Nocturnal habits.",
+    "symptoms": "Grubs bore intricate tunnels throughout the underground corm/rhizome. Roots decay, suckers fail to establish, leaves turn pale yellow, and plants are easily uprooted by hand.",
+    "conditions": "Planting infected suckers, prolonged water stagnation.",
+    "prevention": "Paring and pralinage of suckers: trim roots, dip corm in mud slurry and sprinkle Carbofuran 3G @ 20g/sucker or neem cake @ 500g.",
+    "management": "Drench root zone and corm collar with Chlorpyrifos 20 EC @ 3ml/L or apply Neem cake @ 1 kg/pit at planting and repeat at 4th month."
+  }
+]

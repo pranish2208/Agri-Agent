@@ -1,0 +1,120 @@
+{
+  "id": "tomato",
+  "name": "Tomato",
+  "scientific_name": "Solanum lycopersicum",
+  "family": "Solanaceae",
+  "description": "High-value commercial vegetable crop cultivated across open fields and polyhouses in India. Extremely susceptible to fungal blights, viral complexes transmitted by whiteflies/thrips, and calcium-deficiency blossom end rot.",
+  "climate": "Warm-season crop sensitive to frost and waterlogging; performs best in warm, sunny weather with moderate relative humidity.",
+  "temperature": {
+    "min_c": 12.0,
+    "max_c": 35.0,
+    "optimal_min_c": 18.0,
+    "optimal_max_c": 27.0
+  },
+  "rainfall": {
+    "min_annual_mm": 600.0,
+    "max_annual_mm": 1200.0,
+    "optimal_annual_mm": 800.0,
+    "critical_stages": [
+      "Immediate post-transplanting establishment",
+      "Flowering and fruit set",
+      "Fruit development and sizing"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Well-drained sandy loam",
+      "Rich red loamy soil",
+      "Clay loam rich in organic matter"
+    ],
+    "ph_min": 6.0,
+    "ph_max": 7.5,
+    "ph_optimal_min": 6.2,
+    "ph_optimal_max": 6.8,
+    "drainage_requirement": "Excellent surface and internal drainage essential; highly sensitive to waterlogging (causes root asphyxiation & bacterial wilt within 24h).",
+    "organic_matter_requirement": "High (>0.75% OC); apply 25 tonnes/ha well-decomposed FYM or 5 tonnes vermicompost."
+  },
+  "planting_seasons": [
+    "Kharif (June - July sowing, July - August transplanting)",
+    "Rabi (October - November sowing)",
+    "Summer (January - February sowing in assured irrigation)"
+  ],
+  "seed_rate_per_ha": "100-150 g/ha for F1 hybrids; 400-500 g/ha for open-pollinated varieties.",
+  "spacing": {
+    "row_to_row_cm": 60.0,
+    "plant_to_plant_cm": 45.0,
+    "population_per_ha": 37037
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Nursery & Seedling",
+      "day_start": 1,
+      "day_end": 25,
+      "description": "Portray / raised bed seedling germination under 50% shade net.",
+      "critical_activities": ["Pro-tray seedling drenching with Trichoderma", "Protection from whiteflies using 40-mesh insect net"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Damping off (Pythium)", "Flea beetle", "Early whitefly infestation"]
+    },
+    {
+      "stage_name": "Vegetative & Branching",
+      "day_start": 26,
+      "day_end": 50,
+      "description": "Transplanting shock recovery, vigorous lateral shoot development, staking installation.",
+      "critical_activities": ["Staking with bamboo poles and twine", "First fertigation with N:P:K 19:19:19", "Neem oil spray (3000 ppm)"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Leaf miner", "Aphids", "Early blight (Alternaria solani)", "Bacterial wilt"]
+    },
+    {
+      "stage_name": "Flowering & Fruit Setting",
+      "day_start": 51,
+      "day_end": 75,
+      "description": "Cluster flower emergence, pollination, early fruit set.",
+      "critical_activities": ["Boron foliar spray (1g/litre) to prevent flower drop", "Calcium nitrate soil application (prevents Blossom End Rot)", "Maintain steady moisture"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Tomato pinworm (Tuta absoluta)", "Tomato leaf curl virus (ToLCV)", "Fruit borer (Helicoverpa armigera)", "Early blight"]
+    },
+    {
+      "stage_name": "Fruit Development & Ripening",
+      "day_start": 76,
+      "day_end": 120,
+      "description": "Green mature fruit expansion, breaker stage, color turning from orange to deep red.",
+      "critical_activities": ["High Potassium supply (0:0:50 SOP)", "Avoid moisture fluctuations to prevent fruit cracking", "Multiple hand harvests"],
+      "water_need": "High",
+      "vulnerabilities": ["Fruit borer entry holes", "Late blight (Phytophthora infestans)", "Sunscald", "Fruit rot"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Drip irrigation with fertigation", "Ridge and furrow"],
+    "total_water_requirement_mm": 600.0,
+    "critical_stages": ["Flowering", "Fruit set", "Fruit sizing"],
+    "frequency_days": "Daily or alternate days via drip (3-4 litres/plant/day during peak fruiting)"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 150.0,
+    "phosphorus_kg_per_ha": 100.0,
+    "potassium_kg_per_ha": 120.0,
+    "basal_application": "FYM 25 t/ha + 50 kg N + 100 kg P2O5 + 50 kg K2O per ha at bed preparation.",
+    "top_dressing_schedule": [
+      "25 kg N + 25 kg K2O at 30 days after transplanting (DAT)",
+      "50 kg N + 25 kg K2O at flowering stage (50-55 DAT)",
+      "25 kg N + 20 kg K2O during active fruiting flushes"
+    ],
+    "micronutrient_requirements": [
+      "Foliar Boron (Solubor 0.1%) at flower initiation",
+      "Calcium Nitrate @ 5 kg/acre drenching to prevent Blossom End Rot (BER)"
+    ]
+  },
+  "common_pests": ["Fruit Borer (Helicoverpa armigera)", "Whitefly (Bemisia tabaci)", "Tomato Pinworm (Tuta absoluta)", "Serpentine Leaf Miner"],
+  "common_diseases": ["Early Blight (Alternaria solani)", "Late Blight (Phytophthora infestans)", "Tomato Leaf Curl Virus (ToLCV)", "Bacterial Wilt (Ralstonia solanacearum)"],
+  "harvesting": {
+    "duration_days": "90-140 days (harvesting occurs in multiple pickings over 6-8 weeks)",
+    "maturity_indices": [
+      "Breaker stage (slight pink color at blossom end) for long-distance transit",
+      "Pink to red ripe stage for local fresh markets and processing"
+    ],
+    "harvesting_method": "Hand pick with pedicel attached during cool morning or evening hours.",
+    "average_yield_per_ha": "50 - 75 tonnes/ha for hybrids with drip and staking",
+    "post_harvest_care": "Grade by size and color, pack in plastic crates with paper cushioning; store at 12-15°C with 85-90% RH."
+  },
+  "authoritative_sources": ["ICAR-Indian Institute of Horticultural Research (IIHR)", "TNAU Vegetable Agritech", "AVRDC World Vegetable Center"]
+}

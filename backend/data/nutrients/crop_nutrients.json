@@ -1,0 +1,106 @@
+{
+  "nutrients": [
+    {
+      "element": "Nitrogen",
+      "symbol": "N",
+      "role": "Chlorophyll synthesis, vegetative growth, protein formation.",
+      "deficiency_symptoms": "Uniform general yellowing (chlorosis) starting strictly from the older lower leaves first, while young leaves remain pale green. Stunted growth, thin stems, premature leaf shedding.",
+      "affected_plant_part": "Older lower leaves first (highly mobile nutrient)",
+      "crop_specific_manifestations": {
+        "Rice": "Uniform pale yellow canopy, restricted tillering, early heading with short panicles.",
+        "Tomato": "Lower leaves turn yellow, veins develop light purple tinge, slender rigid stems.",
+        "Cotton": "Lower leaves pale yellow, stunted stalks, small bolls."
+      },
+      "remediation": "Apply Urea (46% N) @ 25-50 kg/ha or foliar spray 1-2% Urea solution (10-20g/L water) for rapid greening."
+    },
+    {
+      "element": "Phosphorus",
+      "symbol": "P",
+      "role": "Root elongation, energy transfer (ATP), flowering, seed development.",
+      "deficiency_symptoms": "Dark dull green foliage with conspicuous purple or bronze pigmentation on leaf undersides, petioles, and veins. Severely stunted root growth, delayed flowering and crop maturity.",
+      "affected_plant_part": "Older lower leaves and petioles (mobile nutrient)",
+      "crop_specific_manifestations": {
+        "Tomato": "Intense purple discoloration on undersides of leaves, poor root anchoring, blossom drop.",
+        "Rice": "Erect dark green leaves with purplish margins, delayed flowering.",
+        "Pulses": "Poor nodule development on roots, weak spindly stems."
+      },
+      "remediation": "Apply Single Super Phosphate (SSP 16% P2O5) or DAP (18:46:0) as basal soil placement or foliar 1-2% DAP spray."
+    },
+    {
+      "element": "Potassium",
+      "symbol": "K",
+      "role": "Stomatal regulation, water economy, disease resistance, fruit size and sugar accumulation.",
+      "deficiency_symptoms": "Marginal scorching and leaf chlorosis starting at tips and margins of older leaves ('fired margin' or 'leaf burn'), curling upwards, weak lodging-prone stems, small flavorless fruits.",
+      "affected_plant_part": "Older leaves at margins and tips (mobile nutrient)",
+      "crop_specific_manifestations": {
+        "Tomato": "Marginal scorch on lower leaves, blotchy ripening, tasteless watery fruits, high vulnerability to Alternaria early blight.",
+        "Banana": "Rapid yellowing and scorching of leaf tips curving downward; weak bunches prone to snapping.",
+        "Chilli": "Marginal leaf burning, low capsaicin pungency, wrinkled fruit tip."
+      },
+      "remediation": "Apply Muriate of Potash (MOP 60% K2O) or Potassium Sulphate (SOP 50% K2O) @ 25-50 kg/ha or foliar spray of 13:0:45 (Potassium nitrate) @ 10g/L."
+    },
+    {
+      "element": "Calcium",
+      "symbol": "Ca",
+      "role": "Cell wall structure (calcium pectate), membrane stability, pollen tube growth.",
+      "deficiency_symptoms": "Death of growing tips, distorted hooked young leaves with necrotic margins, blossom end rot in fruits, shell hollowness in nuts.",
+      "affected_plant_part": "Youngest expanding leaves and fruit distal ends (strictly immobile)",
+      "crop_specific_manifestations": {
+        "Tomato": "Blossom End Rot (BER): dark, water-soaked, sunken, leathery black flat lesion at the blossom end of fruits.",
+        "Chilli": "Sunken necrotic patch at the tip of developing pods.",
+        "Groundnut": "'Pops' symptom: pods develop normally outside but contain hollow or shriveled seedless kernels inside."
+      },
+      "remediation": "Soil application of Gypsum (Calcium sulphate) @ 400-500 kg/ha at pegging in groundnut; foliar drenching with Calcium Nitrate @ 5g/L on tomato and chilli."
+    },
+    {
+      "element": "Magnesium",
+      "symbol": "Mg",
+      "role": "Central core atom of chlorophyll molecule, enzyme activator.",
+      "deficiency_symptoms": "Interveinal chlorosis strictly on older leaves where veins remain dark green while the area between veins turns bright yellow, bronze, or reddish purple.",
+      "affected_plant_part": "Lower mature leaves (mobile)",
+      "crop_specific_manifestations": {
+        "Cotton": "'Reddening of cotton leaves' (interveinal areas turn bright brick red, margins curl downwards, bolls remain small).",
+        "Tomato": "Brittle leaves with bright yellow interveinal mottling while main veins stay green."
+      },
+      "remediation": "Foliar spray of Magnesium Sulphate (MgSO4) @ 10g/L (1%) + 10g/L Urea, repeated after 10-12 days."
+    },
+    {
+      "element": "Zinc",
+      "symbol": "Zn",
+      "role": "Auxin (IAA) synthesis, internode elongation, enzyme activation.",
+      "deficiency_symptoms": "Interveinal chlorosis on middle to young leaves, severe shortening of internodes causing 'little leaf' or 'rosette' appearance, rusty bronze pigmentation.",
+      "affected_plant_part": "Middle and young expanding leaves",
+      "crop_specific_manifestations": {
+        "Rice": "'Khaira disease': 2-3 weeks after transplanting, lower leaves develop reddish-brown or bronze rust-like spots that coalesce, severely retarding growth.",
+        "Tomato": "Puckered small leaves, severe interveinal bronzing.",
+        "Cotton": "Cupped small leaves with interveinal bleaching."
+      },
+      "remediation": "Basal application of Zinc Sulphate (ZnSO4 21%) @ 25 kg/ha or foliar spray of Chelated Zinc (Zn-EDTA 12%) @ 1.0g/L or 0.5% ZnSO4 + 0.25% lime."
+    },
+    {
+      "element": "Iron",
+      "symbol": "Fe",
+      "role": "Electron transport, ferredoxin, chlorophyll biosynthesis.",
+      "deficiency_symptoms": "Sharp and severe interveinal chlorosis on the youngest terminal leaves; leaf blade turns ivory white or pale yellow while veins remain sharply green like a fine network.",
+      "affected_plant_part": "Youngest terminal leaves (immobile)",
+      "crop_specific_manifestations": {
+        "Groundnut": "Lime-induced chlorosis in calcareous soils (top leaves turn completely bleached white).",
+        "Rice": "Nurseries raised on high pH soils show bleached white seedlings ('nursery chlorosis')."
+      },
+      "remediation": "Foliar spray of Ferrous Sulphate (FeSO4) @ 10g/L + 1g/L Citric acid or Chelated Iron (Fe-EDTA) @ 1.5g/L."
+    },
+    {
+      "element": "Boron",
+      "symbol": "B",
+      "role": "Sugar translocation, pollen germination, fruit setting, cell wall synthesis.",
+      "deficiency_symptoms": "Death of terminal apical growing points, brittle curled young leaves, excessive flower drop, internal fruit cracking and corky tissue formation.",
+      "affected_plant_part": "Growing shoot tip, flowers, and developing fruits",
+      "crop_specific_manifestations": {
+        "Tomato": "Excessive flower drop, fruit cracking (star cracks around calyx), internal browning.",
+        "Coconut": "'Crown choking', small malformed nuts with crinkled husk, heavy button shedding.",
+        "Chilli": "Deformed small fruits with blossom drop."
+      },
+      "remediation": "Soil application of Borax @ 10 kg/ha or foliar spray of Solubor (20% B) @ 1.0g/L at flower initiation."
+    }
+  ]
+}

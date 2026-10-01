@@ -1,0 +1,115 @@
+{
+  "id": "pulses",
+  "name": "Pulses",
+  "scientific_name": "Cajanus cajan / Vigna mungo (Red gram / Black gram)",
+  "family": "Fabaceae",
+  "description": "Indispensable protein reservoir for Indian dietary security (Tur/Arhar, Urad, Moong, Chana). Natural soil restorers through atmospheric nitrogen fixation. Vulnerable to pod borer complex (Helicoverpa), sterility mosaic virus, and Fusarium wilt.",
+  "climate": "Warm tropical to subtropical climate; drought hardy with deep taproot system.",
+  "temperature": {
+    "min_c": 14.0,
+    "max_c": 36.0,
+    "optimal_min_c": 20.0,
+    "optimal_max_c": 30.0
+  },
+  "rainfall": {
+    "min_annual_mm": 400.0,
+    "max_annual_mm": 900.0,
+    "optimal_annual_mm": 600.0,
+    "critical_stages": [
+      "Branching stage (30-40 DAS)",
+      "Flower initiation (60-70 DAS)",
+      "Pod filling stage (80-100 DAS)"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Deep well-drained loamy soils",
+      "Medium black soils",
+      "Alluvial clay loam"
+    ],
+    "ph_min": 6.0,
+    "ph_max": 8.0,
+    "ph_optimal_min": 6.5,
+    "ph_optimal_max": 7.5,
+    "drainage_requirement": "Very sensitive to waterlogging (causes collar rot and Phytophthora blight within 24 hours of standing water).",
+    "organic_matter_requirement": "Medium (>0.5% OC); benefits from Rhizobium and Phosphobacteria biofertilizers."
+  },
+  "planting_seasons": [
+    "Kharif (June - July sowing)",
+    "Rabi (October - November sowing for chickpea/blackgram)",
+    "Summer (February - March sowing for green gram/black gram)"
+  ],
+  "seed_rate_per_ha": "12-15 kg/ha for Red gram; 20-25 kg/ha for Black gram.",
+  "spacing": {
+    "row_to_row_cm": 90.0,
+    "plant_to_plant_cm": 30.0,
+    "population_per_ha": 37037
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Germination & Seedling",
+      "day_start": 1,
+      "day_end": 30,
+      "description": "Emergence, unifoliate to trifoliate transition, taproot elongation.",
+      "critical_activities": ["Seed treatment with Rhizobium + Trichoderma (4g/kg)", "Weed control with pendimethalin"],
+      "water_need": "Low",
+      "vulnerabilities": ["Collar rot", "Stem fly"]
+    },
+    {
+      "stage_name": "Vegetative & Canopy Branching",
+      "day_start": 31,
+      "day_end": 75,
+      "description": "Intense branching, active nodulation fixing nitrogen.",
+      "critical_activities": ["Terminal nipping at 45-50 DAS to induce profuse lateral branches", "Installation of bird perches"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Sterility Mosaic Disease (SMD transmitted by eriophyid mites)", "Fusarium wilt"]
+    },
+    {
+      "stage_name": "Flowering & Pod Setting",
+      "day_start": 76,
+      "day_end": 120,
+      "description": "Profuse yellow/red veined blooms followed by pod elongation.",
+      "critical_activities": ["Foliar spray of 2% DAP or Pulse Wonder at peak flowering", "Helicoverpa pheromone trap monitoring (5 traps/acre)"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Gram pod borer (Helicoverpa armigera)", "Maruca pod borer", "Blister beetle"]
+    },
+    {
+      "stage_name": "Pod Maturity & Harvest",
+      "day_start": 121,
+      "day_end": 160,
+      "description": "Pods turn brown to black, seeds rattle inside dry pods.",
+      "critical_activities": ["Harvest when 80% pods turn brown", "Protect against bruchid pulse beetle during drying"],
+      "water_need": "Low",
+      "vulnerabilities": ["Late pod fly", "Bruchid weevils in storage"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Furrow irrigation", "Sprinkler irrigation"],
+    "total_water_requirement_mm": 400.0,
+    "critical_stages": ["Pre-flowering", "Pod development"],
+    "frequency_days": "1 or 2 protective irrigations at critical stages in rainfed conditions"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 25.0,
+    "phosphorus_kg_per_ha": 50.0,
+    "potassium_kg_per_ha": 25.0,
+    "basal_application": "Full NPK at sowing (seeds inoculated with Rhizobium leguminosarum).",
+    "top_dressing_schedule": [
+      "Foliar spray of 2% DAP or TNAU Pulse Wonder @ 5 kg/ha at flower initiation and 15 days later"
+    ],
+    "micronutrient_requirements": ["Zinc sulphate @ 15 kg/ha basal or foliar 0.5% ZnSO4 spray"]
+  },
+  "common_pests": ["Gram Pod Borer (Helicoverpa armigera)", "Spotted Pod Borer (Maruca vitrata)", "Pod Fly (Melanagromyza obtusa)", "Blister Beetle"],
+  "common_diseases": ["Fusarium Wilt (Fusarium udum)", "Sterility Mosaic Disease (SMD)", "Phytophthora Stem Blight", "Powdery Mildew"],
+  "harvesting": {
+    "duration_days": "130-160 days for medium duration red gram; 65-75 days for black gram",
+    "maturity_indices": [
+      "80-85% pods turn brownish black and dry",
+      "Seeds rattle inside pods when shaken"
+    ],
+    "harvesting_method": "Cut plants with sickle close to ground, tie in bundles, sun-dry and thresh.",
+    "average_yield_per_ha": "1.5 - 2.2 tonnes/ha grain yield under good management",
+    "post_harvest_care": "Sun dry grains to 9% moisture; treat with 1% edible vegetable oil (e.g. neem or mustard oil) to prevent pulse beetle attack."
+  },
+  "authoritative_sources": ["ICAR-Indian Institute of Pulses Research (IIPR)", "TNAU Agritech Portal", "ICRISAT Grain Legumes"]
+}

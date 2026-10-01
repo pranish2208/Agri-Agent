@@ -1,0 +1,32 @@
+[
+  {
+    "pest_name": "Fruit Borer",
+    "crop": "Tomato",
+    "scientific_name": "Helicoverpa armigera",
+    "identification": "Stout caterpillar (3-4 cm) varying in color from yellowish-green to brown with prominent longitudinal stripes along sides. Moth is stout, light brown with dark kidney-shaped speck on forewings.",
+    "symptoms": "Larvae feed initially on tender leaves and flowers, then bore circular clean holes into green and ripe fruits, keeping half of their body inside the fruit while feeding. Fruits rot internally and drop.",
+    "conditions": "Warm days with intermittent cloudy weather, overlapping flowering and fruiting cycles.",
+    "prevention": "Grow African Marigold as a trap crop (1 row of tall marigold for every 16 rows of tomato). Install pheromone traps with Helilure @ 5 traps/acre. Handpick and destroy early instar larvae.",
+    "management": "Spray Bacillus thuringiensis (Bt) kurstaki @ 2.0g/L or HaNPV (Helicoverpa nuclear polyhedrosis virus) @ 250 LE/ha. If damage crosses 5% ETL, spray Chlorantraniliprole 18.5% SC @ 0.3ml/L (Coragen) or Spinosad 45% SC @ 0.3ml/L with 3 days waiting period (PHI)."
+  },
+  {
+    "pest_name": "Tomato Pinworm",
+    "crop": "Tomato",
+    "scientific_name": "Tuta absoluta",
+    "identification": "Minute micro-lepidopteran moth (5-7 mm). Young larva is cream-colored with dark head; mature larva develops pinkish dorsal tinge.",
+    "symptoms": "Larvae create broad, transparent, irregular blotch mines in leaves (not serpentine). Larvae also bore pin-sized entry holes near fruit calyx, leaving dark granular frass. Severe foliage destruction.",
+    "conditions": "Dry and warm conditions (25-32°C), polyhouses and intensive tomato belts.",
+    "prevention": "Install pheromone water traps or delta traps with Tutalure @ 16-20 traps/ha. Seal greenhouse vents with 40-mesh net. Remove and destroy infested fruit and leaves immediately.",
+    "management": "Spray Chlorantraniliprole 18.5% SC @ 0.3ml/L or Emamectin benzoate 5% SG @ 0.4g/L or Spinetoram 11.7% SC @ 1.0ml/L. Alternate with Azadirachtin 10,000 ppm @ 2ml/L to avoid resistance."
+  },
+  {
+    "pest_name": "Whitefly",
+    "crop": "Tomato",
+    "scientific_name": "Bemisia tabaci",
+    "identification": "Tiny (1.0 mm) moth-like insects with pure white powdery wings and yellowish body, found clustering in large numbers on the undersides of young leaves.",
+    "symptoms": "Nymphs and adults suck phloem sap, leading to leaf chlorosis, premature senescence, and honeydew secretion with black sooty mold. Crucially acts as the sole vector of destructive Tomato Leaf Curl Virus (ToLCV).",
+    "conditions": "Hot, dry weather (30-36°C) with low relative humidity.",
+    "prevention": "Install yellow sticky traps @ 20-25 traps/acre. Grow sorghum or maize barrier crops. Protect nursery under insect net.",
+    "management": "Spray Spiromesifen 22.9% SC @ 1.0ml/L or Diafenthiuron 50% WP @ 1.25g/L or Pyriproxyfen 10% EC @ 1.5ml/L. For organic control, spray Neem seed kernel extract (NSKE 5%) or fish oil rosin soap @ 25g/L."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "disease_name": "Early Blight",
+    "crop": "Tomato",
+    "pathogen": "Alternaria solani",
+    "affected_plant_part": "Lower older leaves, stems, fruit calyx",
+    "symptoms": "Dark brown to black circular or angular spots with distinct concentric rings creating a 'target board' or 'bullseye' appearance. Yellow halo surrounds necrotic spots. Lower leaves turn yellow, chlorotic, and drop prematurely. Stem cankers and dark leathery sunken lesions at the stem end of fruits.",
+    "favorable_conditions": "Warm temperatures (24-30°C) alternating with periods of dew, heavy rainfall, or overhead sprinkler irrigation. High humidity (>80%).",
+    "risk_factors": "Overhead irrigation wetting canopy, low plant vigor due to potassium deficiency, poor crop rotation (following potato or brinjal), crowded planting.",
+    "prevention": "Rotate with non-solanaceous crops for 2-3 seasons. Mulch with silver-black plastic to prevent soil splash. Prune lower sucker leaves touching soil.",
+    "management": "Foliar spray with Mancozeb 75% WP @ 2.0g/L or Chlorothalonil 75% WP @ 2.0g/L as preventative. For curative action upon initial symptoms, spray Azoxystrobin 23% SC @ 1.0ml/L or Difenoconazole 25% EC @ 0.5ml/L. Ensure adequate potassium nutrition."
+  },
+  {
+    "disease_name": "Late Blight",
+    "crop": "Tomato",
+    "pathogen": "Phytophthora infestans",
+    "affected_plant_part": "Leaves, petioles, stems, green fruits",
+    "symptoms": "Pale green to dark water-soaked irregular spots on leaves that rapidly enlarge into purplish-black lesions. White cottony fungal growth on underside of leaves in humid mornings. Plants collapse rapidly as if scorched by frost. Greasy dark olive-brown firm rot on green fruits.",
+    "favorable_conditions": "Cool and wet weather, day temperatures 18-22°C, relative humidity above 90%, persistent fog, dense fog, drizzle.",
+    "risk_factors": "Prolonged leaf wetness exceeding 8 hours, winter fog conditions, cool overcast days, proximity to infected potato crops.",
+    "prevention": "Select resistant hybrids (e.g. Arka Rakshak, Arka Abhed). Avoid flood or sprinkler irrigation. Destroy volunteer host plants and cull piles.",
+    "management": "Prophylactic spray of Metalaxyl 8% + Mancozeb 64% WP (Ridomil MZ) @ 2.5g/L or Cymoxanil 8% + Mancozeb 64% WP @ 2.0g/L. In organic systems, Copper hydroxide @ 2.0g/L. Spray during morning hours on both sides of leaves."
+  },
+  {
+    "disease_name": "Tomato Leaf Curl Virus (ToLCV)",
+    "crop": "Tomato",
+    "pathogen": "Begomovirus (transmitted by Whitefly Bemisia tabaci)",
+    "affected_plant_part": "Young foliage, terminal shoots, flowers",
+    "symptoms": "Severe upward and downward curling and rolling of leaves, puckering, interveinal chlorosis, stunted bushy plant stature with shortened internodes. Profuse flower drop and negligible fruit setting.",
+    "favorable_conditions": "Warm and dry weather favorable for whitefly proliferation (28-35°C), low natural predator activity.",
+    "risk_factors": "Presence of whiteflies, nearby infected weed hosts (Parthenium, Datura), summer planting without insect nets.",
+    "prevention": "Raise seedlings under 40-mesh insect net portray nursery. Install yellow sticky traps @ 25 traps/acre. Grow border rows of 3 lines of maize or sorghum as wind/insect barrier. Use resistant varieties like Arka Rakshak.",
+    "management": "No curative chemical for viral infection. Rogue out and destroy early infected stunted plants immediately. Control vector whitefly by spraying Diafenthiuron 50% WP @ 1.25g/L or Acetamiprid 20% SP @ 0.3g/L or neem oil (10,000 ppm) @ 2ml/L."
+  },
+  {
+    "disease_name": "Bacterial Wilt",
+    "crop": "Tomato",
+    "pathogen": "Ralstonia solanacearum",
+    "affected_plant_part": "Vascular system, roots, lower stem",
+    "symptoms": "Rapid and sudden daytime wilting of entire green plant without prior yellowing. Plants recover slightly during night initially, then permanently wilt within 3-4 days. Vascular bundles turn brown; cut stem in clear water produces milky white bacterial ooze streams.",
+    "favorable_conditions": "High soil temperatures (30-35°C) and waterlogged, poorly drained acidic soils (pH < 6.0).",
+    "risk_factors": "Root damage during transplanting or intercultivation, nematodes (Meloidogyne), flood irrigation spreading pathogen.",
+    "prevention": "Use resistant rootstocks or varieties (e.g. Arka Ananya, Arka Saurabh). Crop rotation with corn or paddy. Apply agricultural lime in acidic soils to raise pH above 6.5.",
+    "management": "Root drenching with Streptocycline @ 0.2g/L (2g in 10L water) combined with Copper Oxychloride @ 2.5g/L. Bio-control drench with Pseudomonas fluorescens @ 10g/L at transplanting and 30 DAT."
+  }
+]

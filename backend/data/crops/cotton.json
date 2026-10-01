@@ -1,0 +1,116 @@
+{
+  "id": "cotton",
+  "name": "Cotton",
+  "scientific_name": "Gossypium hirsutum",
+  "family": "Malvaceae",
+  "description": "Crucial commercial fibre crop of India ('White Gold'), widely grown in Maharashtra, Gujarat, Telangana, and Karnataka. Highly vulnerable to the bollworm complex (especially Pink Bollworm), sucking pests, and moisture stress during boll bursting.",
+  "climate": "Semi-arid tropical and subtropical climate with long frost-free period, high temperature, and abundant sunshine.",
+  "temperature": {
+    "min_c": 16.0,
+    "max_c": 40.0,
+    "optimal_min_c": 21.0,
+    "optimal_max_c": 32.0
+  },
+  "rainfall": {
+    "min_annual_mm": 500.0,
+    "max_annual_mm": 1000.0,
+    "optimal_annual_mm": 700.0,
+    "critical_stages": [
+      "Square formation (35-45 DAS)",
+      "Flowering and boll formation (60-90 DAS)",
+      "Boll maturation (100-120 DAS)"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Deep black cotton soil (Vertisols)",
+      "Medium black soils",
+      "Deep alluvial loams"
+    ],
+    "ph_min": 6.0,
+    "ph_max": 8.5,
+    "ph_optimal_min": 6.5,
+    "ph_optimal_max": 8.0,
+    "drainage_requirement": "Good internal drainage required; water stagnation causes sudden square drop and root rots.",
+    "organic_matter_requirement": "Medium (>0.5% OC); apply 10 tonnes/ha FYM before monsoon."
+  },
+  "planting_seasons": [
+    "North India: April - May",
+    "Central & South India: June - July (onset of South-West monsoon)",
+    "Tamil Nadu Winter Cambodia: August - September"
+  ],
+  "seed_rate_per_ha": "2.0-2.5 kg/ha for Bt Cotton hybrids; 10-15 kg/ha for desi varieties.",
+  "spacing": {
+    "row_to_row_cm": 90.0,
+    "plant_to_plant_cm": 60.0,
+    "population_per_ha": 18518
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Germination & Seedling",
+      "day_start": 1,
+      "day_end": 30,
+      "description": "Emergence of cotyledonary leaves and early taproot establishment.",
+      "critical_activities": ["Gap filling within 10 days", "Seed treatment with Imidacloprid against early sucking pests"],
+      "water_need": "Low",
+      "vulnerabilities": ["Root rot (Rhizoctonia)", "Early thrips and jassids"]
+    },
+    {
+      "stage_name": "Vegetative & Square Formation",
+      "day_start": 31,
+      "day_end": 65,
+      "description": "Monopodial (vegetative) and sympodial (fruiting) branch expansion; emergence of flower buds ('squares').",
+      "critical_activities": ["First split of Nitrogen", "Installation of Pheromone traps for Pink Bollworm (8 traps/acre)"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Cotton jassids (leaf burn / hopper burn)", "Spotted bollworm", "Bacterial blight (angular leaf spot)"]
+    },
+    {
+      "stage_name": "Flowering & Boll Development",
+      "day_start": 66,
+      "day_end": 120,
+      "description": "Blooms turn from white/cream to pink; rapid boll enlargement and seed hair lint formation.",
+      "critical_activities": ["Foliar spray of 1% MgSO4 + 1% Urea to prevent leaf reddening", "Monitor rosette flowers for Pink Bollworm"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Pink Bollworm (Pectinophora gossypiella)", "American bollworm", "Grey mildew", "Para-wilt after sudden rain"]
+    },
+    {
+      "stage_name": "Boll Bursting & Maturity",
+      "day_start": 121,
+      "day_end": 160,
+      "description": "Boll carpels dry, split open, and expose fluffy white seed cotton (kapas).",
+      "critical_activities": ["Stop all irrigation 15 days before bursting", "Hand picking in clean cloth bags; avoid bract contamination"],
+      "water_need": "Low",
+      "vulnerabilities": ["Cotton stainer bug (discolors lint)", "Late boll rot in damp weather"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Drip irrigation", "Alternate furrow irrigation"],
+    "total_water_requirement_mm": 650.0,
+    "critical_stages": ["Square formation", "Flowering", "Boll development"],
+    "frequency_days": "Every 12-15 days in black soils; every 8-10 days in red soils"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 120.0,
+    "phosphorus_kg_per_ha": 60.0,
+    "potassium_kg_per_ha": 60.0,
+    "basal_application": "Full P2O5 (60 kg) + 20% N (24 kg) + 30% K2O (18 kg) at sowing.",
+    "top_dressing_schedule": [
+      "50% N (60 kg) + 35% K2O (21 kg) at square formation (40-45 DAS)",
+      "30% N (36 kg) + 35% K2O (21 kg) at flowering and boll setting (70-75 DAS)"
+    ],
+    "micronutrient_requirements": ["Foliar spray of 1% Magnesium sulphate + 0.5% Zinc sulphate at 50 and 80 DAS to combat leaf reddening"]
+  },
+  "common_pests": ["Pink Bollworm (Pectinophora gossypiella)", "Cotton Jassid / Leafhopper (Amrasca biguttula)", "Whitefly (Bemisia tabaci)", "Spodoptera litura"],
+  "common_diseases": ["Bacterial Blight / Angular Leaf Spot (Xanthomonas citri pv. malvacearum)", "Grey Mildew (Ramularia areola)", "Fusarium Wilt", "Cotton Leaf Curl Virus (CLCuV)"],
+  "harvesting": {
+    "duration_days": "150-180 days (3 to 4 pickings)",
+    "maturity_indices": [
+      "Bolls fully open and burst with fluffy clean white cotton",
+      "Picking done when moisture has evaporated from dew"
+    ],
+    "harvesting_method": "Manual hand picking of clean bolls without leaf bracts.",
+    "average_yield_per_ha": "2.0 - 3.2 tonnes/ha kapas under irrigated hybrid management",
+    "post_harvest_care": "Sun dry harvested seed cotton to reduce moisture below 8%; grade by staple length and color before sending to ginning mills."
+  },
+  "authoritative_sources": ["ICAR-Central Institute for Cotton Research (CICR)", "TNAU Agritech Portal", "Cotton Corporation of India (CCI)"]
+}

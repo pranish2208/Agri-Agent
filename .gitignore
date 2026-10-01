@@ -1,0 +1,47 @@
+# Dependencies & Environments
+node_modules/
+frontend/node_modules/
+.venv/
+backend/.venv/
+env/
+venv/
+ENV/
+.env
+*.env
+.env.local
+.env.*.local
+
+# Python / Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.sqlite3
+
+# Next.js / Build
+frontend/.next/
+.next/
+out/
+build/
+dist/
+
+# RAG / Vector Store Local Storage
+chroma/
+chroma_db/
+backend/chroma/
+backend/chroma_db/
+backend/rag_db/
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,93 @@
+{
+  "soil_standards": {
+    "ph_ranges": [
+      {
+        "category": "Strongly Acidic",
+        "min": 0.0,
+        "max": 5.5,
+        "interpretation": "Aluminium and Manganese toxicity, Phosphorus fixation by iron/aluminium oxides, microbial inhibition.",
+        "amendment": "Apply Agricultural Lime (CaCO3) or Dolomite @ 2-4 tonnes/ha based on buffer capacity."
+      },
+      {
+        "category": "Moderately Acidic",
+        "min": 5.5,
+        "max": 6.5,
+        "interpretation": "Adequate for acid-tolerant crops (rice, tea, potato), slight P and Ca deficiency risk for vegetables.",
+        "amendment": "Apply light lime or maintain with farmyard manure and Rock Phosphate."
+      },
+      {
+        "category": "Optimal / Neutral",
+        "min": 6.5,
+        "max": 7.5,
+        "interpretation": "Maximum availability of primary (N, P, K), secondary (Ca, Mg, S) and micronutrients. Peak soil microbial activity.",
+        "amendment": "No amendment required. Maintain organic matter with regular compost/FYM addition."
+      },
+      {
+        "category": "Moderately Alkaline",
+        "min": 7.5,
+        "max": 8.5,
+        "interpretation": "Free calcium carbonate fixes Phosphorus as insoluble tricalcium phosphate; micronutrient precipitation (Zn, Fe chlorosis).",
+        "amendment": "Use acid-forming fertilizers (Ammonium sulphate, Single Super Phosphate), apply sulphur @ 200 kg/ha or green manure with Daincha."
+      },
+      {
+        "category": "Strongly Alkaline / Sodic",
+        "min": 8.5,
+        "max": 14.0,
+        "interpretation": "High exchangeable sodium percentage (ESP > 15%), soil structural dispersion, zero infiltration, root toxicity.",
+        "amendment": "Apply Gypsum (CaSO4.2H2O) @ 4-6 tonnes/ha based on gypsum requirement followed by leaching with good quality water."
+      }
+    ],
+    "electrical_conductivity_ds_m": [
+      {
+        "category": "Normal / Non-saline",
+        "max": 1.0,
+        "interpretation": "Safe for all crops; no osmotic stress."
+      },
+      {
+        "category": "Critical for sensitive crops",
+        "min": 1.0,
+        "max": 2.0,
+        "interpretation": "Yield reduction in sensitive crops (pulses, beans, tomato). Germination may be delayed."
+      },
+      {
+        "category": "Moderately Saline",
+        "min": 2.0,
+        "max": 4.0,
+        "interpretation": "Yield reduction of 25-50% in most field crops. Stunted vegetative growth, marginal leaf scorch."
+      },
+      {
+        "category": "Severely Saline",
+        "min": 4.0,
+        "max": 99.0,
+        "interpretation": "Only salt-tolerant crops can survive (barley, sugarbeet, date palm). Heavy leaching and subsurface drainage mandatory."
+      }
+    ],
+    "organic_carbon_percent": {
+      "low": {"max": 0.5, "interpretation": "Poor biological activity, low water retention, high fertilizer leaching. Mandatory application of 15-20 t/ha FYM or 5 t/ha vermicompost."},
+      "medium": {"min": 0.5, "max": 0.75, "interpretation": "Moderate organic status. Maintain with crop residue incorporation and seasonal green manuring."},
+      "high": {"min": 0.75, "interpretation": "Excellent organic matter, high cation exchange capacity (CEC), active earthworms and beneficial microbes."}
+    },
+    "available_nitrogen_kg_ha": {
+      "low": {"max": 280.0, "interpretation": "Deficient: Increase recommended N dose by 25%."},
+      "medium": {"min": 280.0, "max": 560.0, "interpretation": "Adequate: Apply standard 100% recommended dose of fertilizer."},
+      "high": {"min": 560.0, "interpretation": "High: Reduce chemical N application by 25% to prevent vegetative lodging and disease surge."}
+    },
+    "available_phosphorus_p2o5_kg_ha": {
+      "low": {"max": 23.0, "interpretation": "Deficient: Increase recommended P dose by 25% and use vesicular arbuscular mycorrhiza (VAM)."},
+      "medium": {"min": 23.0, "max": 57.0, "interpretation": "Adequate: Apply standard recommended P dose."},
+      "high": {"min": 57.0, "interpretation": "High: Reduce chemical P application by 25-50%."}
+    },
+    "available_potassium_k2o_kg_ha": {
+      "low": {"max": 133.0, "interpretation": "Deficient: Increase K dose by 25% to bolster pest/disease defense and fruit quality."},
+      "medium": {"min": 133.0, "max": 336.0, "interpretation": "Adequate: Apply standard recommended K dose in split applications."},
+      "high": {"min": 336.0, "interpretation": "High: Reduce chemical K application by 25%."}
+    },
+    "critical_micronutrient_limits_ppm": {
+      "zinc_ppm": {"critical": 0.6, "remediation": "Soil application of ZnSO4 @ 25 kg/ha or foliar 0.5% ZnSO4"},
+      "iron_ppm": {"critical": 4.5, "remediation": "Foliar spray of 1% FeSO4 + 0.1% Citric acid"},
+      "boron_ppm": {"critical": 0.5, "remediation": "Soil application of Borax @ 10 kg/ha or foliar 0.1% Solubor"},
+      "copper_ppm": {"critical": 0.2, "remediation": "Soil application of CuSO4 @ 5 kg/ha"},
+      "manganese_ppm": {"critical": 2.0, "remediation": "Foliar spray of 0.5% MnSO4"}
+    }
+  }
+}

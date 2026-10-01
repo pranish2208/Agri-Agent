@@ -1,0 +1,107 @@
+{
+  "id": "banana",
+  "name": "Banana",
+  "scientific_name": "Musa acuminata / Musa paradisiaca",
+  "family": "Musaceae",
+  "description": "High-value perennial commercial fruit crop in India (Grand Naine, Robusta, Rasthali, Nendran). Extremely heavy consumer of water and potassium; vulnerable to Panama wilt (Fusarium) and Sigatoka leaf spot.",
+  "climate": "Humid tropical lowland climate; requires warmth, high humidity, and protection from severe winds.",
+  "temperature": {
+    "min_c": 15.0,
+    "max_c": 38.0,
+    "optimal_min_c": 24.0,
+    "optimal_max_c": 30.0
+  },
+  "rainfall": {
+    "min_annual_mm": 1200.0,
+    "max_annual_mm": 2500.0,
+    "optimal_annual_mm": 1800.0,
+    "critical_stages": [
+      "Early vegetative canopy growth (3-5 months)",
+      "Shooting / inflorescence emergence (7-9 months)",
+      "Bunch filling (9-11 months)"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Deep rich fertile alluvial loam",
+      "Clay loam with high drainage",
+      "Red volcanic loam"
+    ],
+    "ph_min": 5.5,
+    "ph_max": 8.0,
+    "ph_optimal_min": 6.5,
+    "ph_optimal_max": 7.5,
+    "drainage_requirement": "Very high; water table must be deeper than 1 meter. Stagnant water causes root rot within 48 hours.",
+    "organic_matter_requirement": "Very high (>1.0% OC); apply 20-30 kg well-rotted FYM per pit."
+  },
+  "planting_seasons": [
+    "South India: February - April and August - October",
+    "Maharashtra / Gujarat: May - July (tissue culture Grand Naine)"
+  ],
+  "seed_rate_per_ha": "Sword suckers (1.5-2.0 kg) or hardened tissue culture plantlets (3000-4400 plants/ha).",
+  "spacing": {
+    "row_to_row_cm": 180.0,
+    "plant_to_plant_cm": 150.0,
+    "population_per_ha": 3700
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment & Vegetative",
+      "day_start": 1,
+      "day_end": 120,
+      "description": "Root network consolidation, rapid production of broad leaves (up to 30 leaves total before flowering).",
+      "critical_activities": ["Desuckering (remove all side suckers)", "Drip fertigation with balanced N:P:K"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Banana pseudostem weevil", "Rhizome weevil", "Erwinia rhizome rot"]
+    },
+    {
+      "stage_name": "Floral Initiation & Shooting",
+      "day_start": 121,
+      "day_end": 240,
+      "description": "Transition of vegetative apical meristem to floral spike, bunch emergence through pseudostem throat.",
+      "critical_activities": ["Propping with double bamboo poles or polypropene twine", "Denavelling (removal of male flower bud after last hand)", "Heavy Potassium supply"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Yellow and Black Sigatoka leaf spot", "Banana bunchy top virus (BBTV transmitted by aphids)"]
+    },
+    {
+      "stage_name": "Bunch Development & Maturation",
+      "day_start": 241,
+      "day_end": 330,
+      "description": "Fingers swell, fruit angles disappear, starch accumulates in pulp.",
+      "critical_activities": ["Bunch sleeving with ventilated polypropylene/blue polythene sleeve", "Maintain moisture stability to prevent finger splitting"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Fruit scarring beetle", "Sunburn", "Cigar end rot"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Drip irrigation (recommended 15-20 litres/plant/day)"],
+    "total_water_requirement_mm": 1800.0,
+    "critical_stages": ["Active vegetative phase", "Bunch shooting and finger development"],
+    "frequency_days": "Daily via automated drip"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 200.0,
+    "phosphorus_kg_per_ha": 60.0,
+    "potassium_kg_per_ha": 300.0,
+    "basal_application": "Single super phosphate (SSP) 300g + 10 kg FYM + 25g Trichoderma per pit.",
+    "top_dressing_schedule": [
+      "Weekly fertigation splits of Urea and Muriate of Potash (MOP)",
+      "High Nitrogen during first 4 months, predominantly high Potassium from month 5 to 9"
+    ],
+    "micronutrient_requirements": ["Banana special micronutrient mixture (ICAR-NRCB) @ 5g/litre spray at 5th and 7th month"]
+  },
+  "common_pests": ["Banana Pseudostem Weevil (Odoiporus longicollis)", "Rhizome Weevil (Cosmopolites sordidus)", "Banana Aphid (Pentalonia nigronervosa)"],
+  "common_diseases": ["Sigatoka Leaf Spot (Mycosphaerella musicola)", "Panama Wilt (Fusarium oxysporum f. sp. cubense)", "Banana Bunchy Top Virus (BBTV)"],
+  "harvesting": {
+    "duration_days": "11-13 months for tissue culture Grand Naine; 13-15 months for tall varieties",
+    "maturity_indices": [
+      "Fruit angles become round, losing ribbed ridges",
+      "Upper leaves dry up naturally",
+      "Fingers turn light green, floral floral remnants fall off easily"
+    ],
+    "harvesting_method": "Cut peduncle with sharp knife leaving 30 cm stalk for ease of handling.",
+    "average_yield_per_ha": "60 - 85 tonnes/ha for Grand Naine under high-density drip planting",
+    "post_harvest_care": "Wash hands in alum water, treat peduncle with 0.1% Carbendazim, pack in CFB boxes (13 kg)."
+  },
+  "authoritative_sources": ["ICAR-National Research Centre for Banana (NRCB)", "TNAU Agritech Portal"]
+}

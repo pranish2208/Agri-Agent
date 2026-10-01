@@ -1,0 +1,22 @@
+[
+  {
+    "pest_name": "Groundnut Leaf Miner",
+    "crop": "Groundnut",
+    "scientific_name": "Aproaerema modicella",
+    "identification": "Small brownish-grey moth (6 mm). Larva is smooth, greenish with a shiny dark brown head and cervical shield.",
+    "symptoms": "Young larvae create serpentine silver-white blister mines inside leaflets. Older larvae emerge and fold adjacent leaflets together with silken webbing, feeding from within. Severely damaged field exhibits a scorched or burnt appearance.",
+    "conditions": "Dry spells followed by light showers, warm temperature (28-34°C).",
+    "prevention": "Intercropping with pearl millet (bajra) or cowpea in 4:1 ratio. Install light traps to attract adult moths.",
+    "management": "Foliar spray with Quinalphos 25% EC @ 2.0ml/L or Chlorpyrifos 20% EC @ 2.5ml/L or Indoxacarb 14.5% SC @ 0.5ml/L when leaf folding damage crosses 5-10%."
+  },
+  {
+    "pest_name": "White Grub",
+    "crop": "Groundnut",
+    "scientific_name": "Holotrichia consanguinea",
+    "identification": "Large C-shaped fleshy white grub with yellowish-brown head and powerful mandibles, found in soil around plant root zone.",
+    "symptoms": "Grubs voraciously feed on underground taproot, secondary roots, and developing underground pods. Plants show yellowing, wilting, and sudden death in patches. Plants can be lifted out of loose soil with no roots intact.",
+    "conditions": "Light sandy soils, early monsoon showers triggering adult beetle emergence from soil.",
+    "prevention": "Deep summer ploughing to expose pupae and grubs to predatory birds and heat. Mass collection and killing of adult beetles attracted to neem/khejri trees on the first night after monsoon rain.",
+    "management": "Seed treatment with Chlorpyrifos 20 EC @ 20ml/kg seed. Soil application of Fipronil 0.3% G @ 20 kg/ha or Phorate 10G @ 10 kg/ha at sowing. Bio-control: Drench Metarhizium anisopliae @ 5 kg/ha mixed with 250 kg FYM."
+  }
+]

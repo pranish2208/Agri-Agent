@@ -1,0 +1,117 @@
+{
+  "id": "chilli",
+  "name": "Chilli",
+  "scientific_name": "Capsicum annuum",
+  "family": "Solanaceae",
+  "description": "Crucial commercial spice and cash crop in India (major producer & exporter, notably Guntur, Warangal, and Byadgi belts). Highly susceptible to the sucking pest complex (thrips, mites) causing leaf curl, and fungal anthracnose fruit rot.",
+  "climate": "Warm tropical and subtropical climate; thrives in sunny days and warm nights.",
+  "temperature": {
+    "min_c": 15.0,
+    "max_c": 35.0,
+    "optimal_min_c": 20.0,
+    "optimal_max_c": 30.0
+  },
+  "rainfall": {
+    "min_annual_mm": 500.0,
+    "max_annual_mm": 1000.0,
+    "optimal_annual_mm": 700.0,
+    "critical_stages": [
+      "Transplanting establishment",
+      "Flowering flushes",
+      "Pod enlargement"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Well-drained black cotton soils",
+      "Red sandy loam",
+      "Alluvial clay loam"
+    ],
+    "ph_min": 5.8,
+    "ph_max": 7.5,
+    "ph_optimal_min": 6.2,
+    "ph_optimal_max": 7.0,
+    "drainage_requirement": "Very sensitive to standing water; waterlogging triggers phytophthora root rot and massive flower shedding.",
+    "organic_matter_requirement": "Medium to High (>0.6% OC); incorporate 20 tonnes/ha farmyard manure."
+  },
+  "planting_seasons": [
+    "Kharif (June - July sowing)",
+    "Rabi (September - October sowing)",
+    "Summer (January - February sowing under drip)"
+  ],
+  "seed_rate_per_ha": "200-250 g/ha for F1 hybrids; 1.0 kg/ha for varieties.",
+  "spacing": {
+    "row_to_row_cm": 60.0,
+    "plant_to_plant_cm": 45.0,
+    "population_per_ha": 37037
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Nursery & Seedling",
+      "day_start": 1,
+      "day_end": 35,
+      "description": "Seed germination and seedling growth in nursery beds or portrayed plugs.",
+      "critical_activities": ["Seed treatment with Trichoderma viride (4g/kg)", "Insect net protection against thrips"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Damping off", "Thrips transmit early leaf curl"]
+    },
+    {
+      "stage_name": "Vegetative & Canopy Expansion",
+      "day_start": 36,
+      "day_end": 70,
+      "description": "Plant branching, sympodial bud initiation, dense foliage canopy creation.",
+      "critical_activities": ["Intercultivation and earthing up", "Yellow and blue sticky traps installation (20 traps/acre)"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Chilli thrips (upward leaf curling)", "Yellow mites (downward leaf curling)", "Cercospora leaf spot"]
+    },
+    {
+      "stage_name": "Flowering & Pod Setting",
+      "day_start": 71,
+      "day_end": 110,
+      "description": "Continuous blooming cycles and young green pod elongation.",
+      "critical_activities": ["NAA 10 ppm spray to curb premature flower drop", "Split potash application for pungency and capsaicin"],
+      "water_need": "High",
+      "vulnerabilities": ["Anthracnose / Die-back (Colletotrichum capsici)", "Flower thrips", "Fruit borer"]
+    },
+    {
+      "stage_name": "Fruit Ripening & Harvesting",
+      "day_start": 111,
+      "day_end": 180,
+      "description": "Pod color change from dark green to deep shining crimson red; multi-stage pickings.",
+      "critical_activities": ["Timely plucking to prevent over-ripeness and fungal rot", "Drying on cement threshing floor or solar dryer"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Ripe fruit rot (Colletotrichum)", "Fruit borer entry holes", "Sun scald"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Drip irrigation", "Ridge and furrow"],
+    "total_water_requirement_mm": 550.0,
+    "critical_stages": ["Flowering", "Fruit development"],
+    "frequency_days": "Every 5-7 days in winter, every 3-4 days in summer"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 120.0,
+    "phosphorus_kg_per_ha": 60.0,
+    "potassium_kg_per_ha": 60.0,
+    "basal_application": "Full P2O5 (60 kg) + 30 kg N + 30 kg K2O at land preparation.",
+    "top_dressing_schedule": [
+      "30 kg N at 30 DAT",
+      "30 kg N + 30 kg K2O at 60 DAT (first flowering)",
+      "30 kg N in two splits during multiple harvest flushes"
+    ],
+    "micronutrient_requirements": ["Foliar spray of 0.2% Zinc sulphate + 0.1% Borax at 45 and 60 DAT"]
+  },
+  "common_pests": ["Chilli Thrips (Scirtothrips dorsalis)", "Yellow Mite (Polyphagotarsonemus latus)", "Fruit Borer (Spodoptera litura)", "Aphids"],
+  "common_diseases": ["Anthracnose / Fruit Rot / Dieback", "Chilli Leaf Curl Virus (ChiLCV)", "Cercospora Leaf Spot", "Bacterial Leaf Spot"],
+  "harvesting": {
+    "duration_days": "150-180 days (5 to 7 pickings)",
+    "maturity_indices": [
+      "Firm, dark green pods for green chilli market",
+      "Deep uniform red pods with 70-80% red coloration for dry red chilli"
+    ],
+    "harvesting_method": "Hand plucking with stalk attached.",
+    "average_yield_per_ha": "10-15 t/ha green chilli or 2.5-3.5 t/ha dry red chilli",
+    "post_harvest_care": "Sun dry red chillies for 10-15 days until moisture drops below 10%; store in cool, dry place to prevent aflatoxin."
+  },
+  "authoritative_sources": ["ICAR-Indian Institute of Spices Research (IISR)", "TNAU Agritech Portal", "Spices Board of India"]
+}

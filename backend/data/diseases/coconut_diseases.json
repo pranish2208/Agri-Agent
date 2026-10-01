@@ -1,0 +1,24 @@
+[
+  {
+    "disease_name": "Bud Rot",
+    "crop": "Coconut",
+    "pathogen": "Phytophthora palmivora",
+    "affected_plant_part": "Central spear leaf, apical growing bud, crown",
+    "symptoms": "Yellowing and withering of central spear leaf (spindle leaf). The base of the spear rots, emits a foul putrid odor, and can be pulled out effortlessly from the crown. Infection spreads downwards into cabbage/growing point; if apical bud decays, the palm dies irrevocably.",
+    "favorable_conditions": "Heavy monsoon rains, high atmospheric humidity (>90%), cool night temperatures (18-24°C).",
+    "risk_factors": "Overcrowding of palms, uncleaned crowns full of rotting debris, injury caused by rhinoceros beetle.",
+    "prevention": "Crown cleaning before monsoon onset (May & September). Prophylactic application of Bordeaux paste or Mancozeb sachet (5g in perforated plastic pouch) placed in crown axils.",
+    "management": "In early stages: cut away all rotten tissues from crown, apply 10% Bordeaux paste or Copper Oxychloride paste (50g in 500ml water) over the cut surface and cover with polythene sheet to protect from rain. In advanced stage with dead bud, fell and burn the palm to prevent pathogen sporulation."
+  },
+  {
+    "disease_name": "Basal Stem Rot / Thanjavur Wilt",
+    "crop": "Coconut",
+    "pathogen": "Ganoderma lucidum / Ganoderma applanatum",
+    "affected_plant_part": "Trunk base (0-1.5m above ground), root system",
+    "symptoms": "Yellowing, withering, and drooping of outer whorl of fronds; button shedding and arrested nut development. Reddish-brown viscous liquid bleeds from cortical cracks at trunk base up to 1-1.5m height. Roots decay and turn dark brown. Hard bracket-like fungal fruiting bodies (brackets) emerge at trunk base.",
+    "favorable_conditions": "Sandy loam soils, hot dry summer followed by sudden heavy irrigation, alkaline pH.",
+    "risk_factors": "Injuries to roots during tractor ploughing, intercropping susceptible hosts, neglected palm nutrition.",
+    "prevention": "Dig isolation trenches (1m deep, 50cm wide) around diseased palms to prevent root contact transmission. Avoid ploughing near palm base (stay 2m clear). Apply 5 kg neem cake + 50 kg FYM per palm annually.",
+    "management": "Root feeding with Hexaconazole 5% EC @ 2ml in 100ml water or Tridemorph @ 2ml in 100ml water at quarterly intervals. Soil drenching around basin with 40 litres of 1% Bordeaux mixture. Apply bio-agent Trichoderma viride @ 100g/palm mixed in 50 kg farmyard manure."
+  }
+]

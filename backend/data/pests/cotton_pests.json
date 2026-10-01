@@ -1,0 +1,22 @@
+[
+  {
+    "pest_name": "Pink Bollworm",
+    "crop": "Cotton",
+    "scientific_name": "Pectinophora gossypiella",
+    "identification": "Small dark brown moth (8-9 mm). Caterpillars initially white, developing prominent bright pink transverse bands on each abdominal segment as they mature.",
+    "symptoms": "Larvae bore into flower buds causing abnormal petal twisting known as 'Rosette Flowers'. Larvae bore into young green bolls, feeding on developing seeds and lint. Entry hole heals quickly, making exterior look healthy while inside lint is stained brown and seeds are hollowed ('double seeds' joined with silk). Premature unseasonal boll opening with ruined kapas.",
+    "conditions": "Late season cotton, long duration crops, mild temperatures (25-30°C) with moderate humidity.",
+    "prevention": "Install Gossyplure pheromone traps @ 8 traps/acre for monitoring and mass trapping. Maintain refuge crop of non-Bt cotton around borders. Avoid ratoon cotton cropping.",
+    "management": "If trap catches exceed 8 moths/trap/night for 3 consecutive nights or 10% rosette flowers ETL: spray Chlorpyrifos 20% EC @ 2.5ml/L or Profenofos 50% EC @ 2.0ml/L or Emamectin benzoate 5% SG @ 0.5g/L. Biological mating disruption using PB Rope dispensers."
+  },
+  {
+    "pest_name": "Cotton Jassid / Leafhopper",
+    "crop": "Cotton",
+    "scientific_name": "Amrasca biguttula biguttula",
+    "identification": "Tiny wedge-shaped pale greenish-yellow insects (2-3 mm) that run diagonally when disturbed, found on underside of leaves.",
+    "symptoms": "Nymphs and adults suck cell sap and inject phytotoxins. Leaves show marginal yellowing, curling downwards, turning brick red or bronzed ('hopper burn'), and eventually dry and fall off.",
+    "conditions": "Warm and humid weather during vegetative stage (30-60 DAS).",
+    "prevention": "Grow hairy leaf varieties tolerant to jassids. Conserve ladybird beetles and lacewings.",
+    "management": "Spray Flonicamid 50% WG @ 0.3g/L or Dinotefuran 20% SG @ 0.3g/L or Imidacloprid 17.8% SL @ 0.3ml/L. For organic treatment, spray 5% NSKE."
+  }
+]

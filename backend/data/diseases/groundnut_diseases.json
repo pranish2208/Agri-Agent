@@ -1,0 +1,24 @@
+[
+  {
+    "disease_name": "Tikka Leaf Spot (Early & Late Leaf Spot)",
+    "crop": "Groundnut",
+    "pathogen": "Cercospora arachidicola (Early) / Phaeoisariopsis personata (Late)",
+    "affected_plant_part": "Leaves, petioles, stems",
+    "symptoms": "Early leaf spot produces sub-circular brown spots with a prominent bright yellow halo on upper leaf surface. Late leaf spot produces dark brown to carbon black circular spots without conspicuous yellow halo on lower leaf surface. Severe infection causes massive defoliation, leaving bare stems and small shriveled pods.",
+    "favorable_conditions": "Warm and humid weather, temperatures of 25-30°C, RH >80%, prolonged leaf wetness from dew or drizzle during pod filling.",
+    "risk_factors": "Monocropping groundnut year after year, late sowing, excess nitrogen, unseasonal late monsoon showers.",
+    "prevention": "Crop rotation with cereals (sorghum, pearl millet). Seed treatment with Mancozeb @ 3g/kg or Trichoderma @ 4g/kg. Early planting at onset of monsoon.",
+    "management": "Foliar spray of Tebuconazole 25.9% EC @ 1.0ml/L or Carbendazim 12% + Mancozeb 63% WP (Saaf) @ 2.0g/L or Hexaconazole 5% EC @ 2.0ml/L at 40-45 DAS and repeat at 60 DAS if humid weather persists."
+  },
+  {
+    "disease_name": "Rust",
+    "crop": "Groundnut",
+    "pathogen": "Puccinia arachidis",
+    "affected_plant_part": "Lower surface of leaves",
+    "symptoms": "Pustules (uredosori) appear on lower leaf surface containing orange-brown to cinnamon-brown powdery spores. Pustules rupture the epidermis. In severe cases, leaves curl, become necrotic and dry up, but remain attached to the plant unlike Tikka disease.",
+    "favorable_conditions": "High humidity (>85%), temperatures 20-25°C, cloudy weather.",
+    "risk_factors": "Co-occurrence with Tikka leaf spot (Tikka-Rust complex), susceptible cultivars, continuous rainfall.",
+    "prevention": "Select rust-resistant varieties (e.g. ALR 1, ALR 2, VRI 6). Destroy volunteer groundnut plants.",
+    "management": "Spray Wettable Sulphur 80 WP @ 2.5g/L or Chlorothalonil 75 WP @ 2.0g/L or Difenoconazole 25 EC @ 1.0ml/L."
+  }
+]

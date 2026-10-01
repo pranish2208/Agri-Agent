@@ -1,0 +1,22 @@
+[
+  {
+    "pest_name": "Rhinoceros Beetle",
+    "crop": "Coconut",
+    "scientific_name": "Oryctes rhinoceros",
+    "identification": "Large stout beetle (40-50 mm), shiny black or dark brown with a prominent cephalic horn curved backwards (longer in males). Large fleshy C-shaped white grub found breeding in manure pits and dead palm logs.",
+    "symptoms": "Adult beetle bores into the unopened central spindle/spear leaf cluster and crown. When the damaged frond unfolds, it reveals characteristic geometrical V-shaped or diamond-shaped cuts on leaflets. Chewed fibrous frass extrudes from boreholes.",
+    "conditions": "Presence of uncomposted cattle dung heaps, dead decaying palm trunks near the grove.",
+    "prevention": "Sanitation of breeding sites: treat farmyard manure pits with Metarhizium anisopliae green muscardine fungus or Carbaryl. Hook out beetles from crown using an iron wire hook.",
+    "management": "Place naphthalene balls (3-4 balls of 10-12g) in the leaf axils around the base of the spindle leaf and cover with fine sand (1:1 sand-neem cake mixture). Install Rhinolure pheromone traps @ 2 traps/ha."
+  },
+  {
+    "pest_name": "Red Palm Weevil",
+    "crop": "Coconut",
+    "scientific_name": "Rhynchophorus ferrugineus",
+    "identification": "Ferruginous brown weevil (35 mm) with long curved snout and dark spots on thorax. Highly lethal pest of palms.",
+    "symptoms": "Grubs feed concealed within the trunk interior. Viscous brown sap oozes from small holes on trunk accompanied by a fermented odor. Chewing sounds audible when ear is placed against trunk. Crown leaves turn pale, droop, and central crown topples over suddenly ('cabbage rot').",
+    "conditions": "Wounded palms, pruning fronds flush to the trunk, injury caused by rhinoceros beetle.",
+    "prevention": "Never cut green fronds within 1.2 meters of trunk base. Seal all cut surfaces and beetle holes with coal tar or copper oxychloride paste. Install Ferrolure pheromone bucket traps.",
+    "management": "Early stage trunk injection: drill downward hole above infested zone and inject Imidacloprid 17.8 SL @ 2ml in 100ml water or Chlorpyrifos 20 EC @ 10ml in 100ml water and plug hole with cement mortar."
+  }
+]

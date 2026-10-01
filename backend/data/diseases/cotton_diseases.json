@@ -1,0 +1,24 @@
+[
+  {
+    "disease_name": "Bacterial Blight / Angular Leaf Spot / Blackarm",
+    "crop": "Cotton",
+    "pathogen": "Xanthomonas citri pv. malvacearum",
+    "affected_plant_part": "Cotyledons, leaves, petioles, stems ('blackarm'), bolls",
+    "symptoms": "Angular water-soaked spots delimited by leaf veinlets; spots turn brown to dark purplish-black. On stems, elongated black lesions ('blackarm phase') weaken branch junctions and cause breakage. Internal boll rot and discolored stained lint.",
+    "favorable_conditions": "Warm and wet weather, day temperatures 30-35°C, high humidity (>85%), wind-driven rains during flowering.",
+    "risk_factors": "Infected fuzzy seeds, high nitrogen fertilization, overhead rainstorms beating foliage.",
+    "prevention": "Acid delinting of cotton seeds with concentrated sulphuric acid (100ml/kg fuzzy seed) followed by seed dressing with Streptocycline (100 ppm).",
+    "management": "Foliar spray with Copper Oxychloride 50 WP @ 2.5g/L combined with Streptocycline @ 0.1g/L (1g in 10L water). Repeat after 15 days if rainy weather continues."
+  },
+  {
+    "disease_name": "Grey Mildew / Dahiya Disease",
+    "crop": "Cotton",
+    "pathogen": "Ramularia areola",
+    "affected_plant_part": "Leaves and bracts",
+    "symptoms": "Pale translucent angular spots on upper leaf surface bounded by veinlets; dense white frosty powdery fungal growth appears on underside of leaves resembling chalk powder (Dahiya). Leaves turn yellow and drop prematurely.",
+    "favorable_conditions": "Humid cool weather during boll development (RH >80%, temp 20-25°C), dense foliage.",
+    "risk_factors": "Over-fertilization with N, high plant density, prolonged late monsoon wet spells.",
+    "prevention": "Proper row spacing (90x60 cm), clean cultivation, balanced potash application.",
+    "management": "Foliar spray with Wettable Sulphur 80% WP @ 2.5g/L or Carbendazim 50% WP @ 1.0g/L or Kresoxim-methyl 44.3% SC @ 1.0ml/L upon first symptom appearance."
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "disease_name": "Anthracnose / Die-back and Ripe Fruit Rot",
+    "crop": "Chilli",
+    "pathogen": "Colletotrichum capsici / Colletotrichum gloeosporioides",
+    "affected_plant_part": "Twigs, branches, ripe red and green fruits",
+    "symptoms": "Die-back of tender twigs from tip downwards; twigs turn white to grayish straw-colored with black acervuli dots. On fruits, circular sunken lesions with concentric rings of salmon-pink/black fruiting bodies; diseased fruits shrivel, bleach, and drop prematurely.",
+    "favorable_conditions": "Warm and humid weather, temperatures of 28-30°C, RH >80%, post-monsoon rain showers during fruiting.",
+    "risk_factors": "Overhead irrigation, unseasonal showers, high plant density, infected seeds.",
+    "prevention": "Seed treatment with Thiram or Captan @ 3g/kg seed or Trichoderma viride @ 4g/kg. Destroy infected plant debris after harvest.",
+    "management": "Foliar spray of Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1.0ml/L or Propiconazole 25% EC @ 1.0ml/L or Copper Oxychloride 50 WP @ 2.5g/L. Spray at flowering and repeat at 15-day intervals during fruit maturation."
+  },
+  {
+    "disease_name": "Chilli Leaf Curl Virus (ChiLCV)",
+    "crop": "Chilli",
+    "pathogen": "Begomovirus (transmitted by Whitefly Bemisia tabaci)",
+    "affected_plant_part": "Leaves and shoots",
+    "symptoms": "Upward curling of leaf margins, leaf thickening, vein clearing, brittle puckered leaves, shortening of petioles, bushy rosette stunted appearance. Severe flower dropping, deformed small fruits.",
+    "favorable_conditions": "Warm dry conditions (25-35°C), high population of whiteflies.",
+    "risk_factors": "Continuous cropping of solanaceous crops, weed reservoirs around field borders, dry weather spells.",
+    "prevention": "Border cropping with 3 rows of Maize or Jowar. Install yellow sticky traps (15-20 traps/acre). Use tolerant varieties.",
+    "management": "Uproot and bury severely infected plants. Spray vector-control insecticides: Spiromesifen 22.9% SC @ 1.0ml/L or Diafenthiuron 50% WP @ 1.25g/L or Imidacloprid 17.8% SL @ 0.3ml/L. Alternate with neem oil 10,000 ppm @ 2ml/L."
+  },
+  {
+    "disease_name": "Cercospora Leaf Spot (Frogeye)",
+    "crop": "Chilli",
+    "pathogen": "Cercospora capsici",
+    "affected_plant_part": "Leaves and petioles",
+    "symptoms": "Small circular spots with white or bleached grayish centers surrounded by prominent dark brown margins resembling a frog's eye. Heavy infections cause complete leaf yellowing and severe defoliation, exposing fruits to sunscald.",
+    "favorable_conditions": "High humidity (>85%), warm temperatures (25-30°C), frequent rains or overhead watering.",
+    "risk_factors": "Dense foliage, splashing rainwater from bare soil, nutrient-stressed plants.",
+    "prevention": "Ensure wide spacing, mulch with organic material, avoid overhead splashing.",
+    "management": "Spray Mancozeb 75% WP @ 2.5g/L or Carbendazim 12% + Mancozeb 63% WP (Saaf) @ 2.0g/L or Tebuconazole 25.9% EC @ 1.0ml/L upon spotting initial leaf lesions."
+  }
+]

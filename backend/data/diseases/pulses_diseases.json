@@ -1,0 +1,24 @@
+[
+  {
+    "disease_name": "Fusarium Wilt",
+    "crop": "Pulses",
+    "pathogen": "Fusarium udum (in Red gram) / Fusarium oxysporum (in Chickpea)",
+    "affected_plant_part": "Vascular system, taproot, foliage",
+    "symptoms": "Gradual wilting and yellowing of foliage starting from bottom leaves. In red gram, often one side of the plant wilts first while the other remains green ('partial wilt'). Split stem reveals dark purple or black longitudinal vascular discoloration.",
+    "favorable_conditions": "Soil temperature 24-28°C, poorly structured heavy soils with soil compaction.",
+    "risk_factors": "Monocropping of red gram, acidic or neutral soils, root-knot nematode wounding.",
+    "prevention": "Crop rotation with sorghum, tobacco, or maize. Use wilt-resistant varieties (e.g. BSMR 736, Asha - ICPL 87119, Maruthi). Soil solarization in summer.",
+    "management": "Seed treatment with Trichoderma viride @ 4g/kg seed + Pseudomonas fluorescens @ 10g/kg. Soil application of Trichoderma viride enriched FYM (2.5 kg Trichoderma in 500 kg FYM/ha). Avoid excessive irrigation."
+  },
+  {
+    "disease_name": "Sterility Mosaic Disease (SMD)",
+    "crop": "Pulses",
+    "pathogen": "Pigeonpea sterility mosaic virus (transmitted by Eriophyid Mite Aceria cajani)",
+    "affected_plant_part": "Whole plant foliage, flowers",
+    "symptoms": "Leaves show mosaic mottling, yellowish green chlorotic patches, leaf size reduction, bushiness and excessive vegetative growth. Infected plants produce NO flowers and NO pods ('sterility'). Affected plants stand out as bright green bushy clumps in the field.",
+    "favorable_conditions": "Warm and dry weather favoring rapid reproduction of the eriophyid vector mite.",
+    "risk_factors": "Presence of perennial or ratoon red gram plants nearby harbouring mites over summer.",
+    "prevention": "Rogue out infected plants in initial stages. Use resistant/tolerant varieties (ICPL 87119 / Asha). Eradicate volunteer and ratoon pigeonpea.",
+    "management": "Spray acaricide/insecticide to control vector mite: Fenazaquin 10% EC @ 1.0ml/L or Propargite 57% EC @ 2.0ml/L or Wettable Sulphur 80 WP @ 3.0g/L during early vegetative stage (30-45 DAS)."
+  }
+]

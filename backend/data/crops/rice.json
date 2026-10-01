@@ -1,0 +1,127 @@
+{
+  "id": "rice",
+  "name": "Rice",
+  "scientific_name": "Oryza sativa",
+  "family": "Poaceae",
+  "description": "Primary staple food crop of India, cultivated across vast wetland ecosystems, deltaic plains, and rainfed uplands. Heavily sensitive to water management, nitrogen timing, and blast/sheath blight pathogens.",
+  "climate": "Hot and humid tropical to subtropical climate with prolonged sunshine during grain filling.",
+  "temperature": {
+    "min_c": 18.0,
+    "max_c": 38.0,
+    "optimal_min_c": 22.0,
+    "optimal_max_c": 32.0
+  },
+  "rainfall": {
+    "min_annual_mm": 1000.0,
+    "max_annual_mm": 2500.0,
+    "optimal_annual_mm": 1250.0,
+    "critical_stages": [
+      "Active tillering (25-35 DAT)",
+      "Panicle initiation (45-55 DAT)",
+      "Flowering and anthesis (65-75 DAT)"
+    ]
+  },
+  "soil": {
+    "suitable_types": [
+      "Heavy clay loam",
+      "Silty clay",
+      "Alluvial loam with impervious subsoil"
+    ],
+    "ph_min": 5.0,
+    "ph_max": 7.5,
+    "ph_optimal_min": 5.5,
+    "ph_optimal_max": 6.8,
+    "drainage_requirement": "Poor drainage tolerant; standing water of 2-5 cm maintained during active vegetative stage, drained prior to harvest.",
+    "organic_matter_requirement": "Moderate to High (>0.6% OC); benefits from green manuring with Sesbania (Daincha)."
+  },
+  "planting_seasons": [
+    "Kharif (June - November)",
+    "Rabi / Navarai (December - April)",
+    "Samba / Thaladi (August - January)"
+  ],
+  "seed_rate_per_ha": "30-40 kg/ha for transplanted rice; 10-12 kg/ha for SRI method; 60-80 kg/ha for direct seeded rice.",
+  "spacing": {
+    "row_to_row_cm": 20.0,
+    "plant_to_plant_cm": 15.0,
+    "population_per_ha": 333333
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Nursery & Seedling",
+      "day_start": 1,
+      "day_end": 25,
+      "description": "Seed germination, radicle emergence, and seedling development in raised or wet nursery beds.",
+      "critical_activities": ["Seed treatment with Pseudomonas fluorescens (10g/kg)", "Thin layer water maintenance"],
+      "water_need": "Moderate",
+      "vulnerabilities": ["Damping off", "Thrips", "Caseworm"]
+    },
+    {
+      "stage_name": "Active Tillering",
+      "day_start": 26,
+      "day_end": 50,
+      "description": "Establishment after transplanting, auxiliary bud proliferation into tillers, root anchoring.",
+      "critical_activities": ["First top dressing of Urea (25% N)", "Hand weeding / cono-weeder pass", "Maintain 2-3 cm water"],
+      "water_need": "High",
+      "vulnerabilities": ["Yellow stem borer (dead hearts)", "Brown planthopper (BPH)", "Blast"]
+    },
+    {
+      "stage_name": "Panicle Initiation & Booting",
+      "day_start": 51,
+      "day_end": 75,
+      "description": "Microscopic panicle development inside the boot leaf sheath; maximum vegetative canopy.",
+      "critical_activities": ["Second top dressing (N and remaining K2O)", "Maintain 5 cm water; prevent moisture stress"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Leaf blast", "Sheath blight", "Stem borer", "Zinc deficiency (Khaira disease)"]
+    },
+    {
+      "stage_name": "Flowering & Grain Filling",
+      "day_start": 76,
+      "day_end": 105,
+      "description": "Exsertion of panicle, anthesis, milky stage to soft dough transition.",
+      "critical_activities": ["Keep soil saturated; avoid both submergence and cracking", "Foliar 1% DAP or K spray if needed"],
+      "water_need": "Critical",
+      "vulnerabilities": ["Neck blast", "False smut", "Rice earhead bug (gundhi bug)", "Bacterial leaf blight"]
+    },
+    {
+      "stage_name": "Maturity & Ripening",
+      "day_start": 106,
+      "day_end": 130,
+      "description": "Dough hardening, grain moisture falls from 24% to 18%, straw turns golden yellow.",
+      "critical_activities": ["Complete drainage of field 10 days before harvest", "Protect from bird damage"],
+      "water_need": "Low",
+      "vulnerabilities": ["Rodents", "Grain shattering", "Lodging from untimely rainfall"]
+    }
+  ],
+  "irrigation": {
+    "recommended_methods": ["Continuous shallow submergence (2-5 cm)", "Alternate Wetting and Drying (AWD)"],
+    "total_water_requirement_mm": 1200.0,
+    "critical_stages": ["Panicle initiation", "Booting", "Flowering"],
+    "frequency_days": "Submerge 3 days after ponded water disappears (in AWD)"
+  },
+  "nutrients": {
+    "nitrogen_kg_per_ha": 120.0,
+    "phosphorus_kg_per_ha": 50.0,
+    "potassium_kg_per_ha": 50.0,
+    "basal_application": "Full P2O5 (50 kg) + 25% N (30 kg) + 50% K2O (25 kg) + 25 kg Zinc sulphate/ha at final puddling.",
+    "top_dressing_schedule": [
+      "25% N (30 kg) at active tillering (21-25 DAT)",
+      "25% N (30 kg) + 50% K2O (25 kg) at panicle initiation (40-45 DAT)",
+      "Remaining 25% N (30 kg) at heading stage if crop shows pale green canopy"
+    ],
+    "micronutrient_requirements": ["Zinc Sulphate @ 25 kg/ha basal or foliar 0.5% ZnSO4 spray for Khaira symptom correction"]
+  },
+  "common_pests": ["Yellow Stem Borer", "Brown Plant Hopper (BPH)", "Leaf Folder", "Rice Earhead Bug (Gundhi Bug)"],
+  "common_diseases": ["Rice Blast (Pyricularia oryzae)", "Sheath Blight (Rhizoctonia solani)", "Bacterial Leaf Blight (Xanthomonas oryzae)", "False Smut"],
+  "harvesting": {
+    "duration_days": "115-135 days (short to medium duration)",
+    "maturity_indices": [
+      "80-85% grains in panicles turn straw golden yellow",
+      "Moisture content drops below 20%",
+      "Lower grain on panicle is in hard dough stage"
+    ],
+    "harvesting_method": "Cut plants with serrated sickle at 5-10 cm above ground level or combine harvester.",
+    "average_yield_per_ha": "5.0 - 6.5 tonnes/ha under irrigated condition",
+    "post_harvest_care": "Sun dry threshed paddy on clean tarpaulin to reach 12-14% moisture before storage in moisture-proof gunny bags."
+  },
+  "authoritative_sources": ["ICAR-National Rice Research Institute (NRRI)", "TNAU Agritech Portal", "IRRI Rice Knowledge Bank"]
+}

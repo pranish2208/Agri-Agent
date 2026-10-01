@@ -1,0 +1,22 @@
+[
+  {
+    "pest_name": "Yellow Stem Borer",
+    "crop": "Rice",
+    "scientific_name": "Scirpophaga incertulas",
+    "identification": "Adult female moth has bright yellowish-brown wings with a distinct black spot in the center of each forewing and an orange tuft of hair at the anal tip. Slender caterpillar with pale yellow/dirty white body and orange-brown head.",
+    "symptoms": "Larvae bore into stem central shoot: in vegetative stage, causes central leaf drying called 'Dead Heart' (easily pulled out with rotten cut base). In reproductive stage, causes complete drying and whitening of panicles called 'White Earhead' (empty grains).",
+    "conditions": "Moderate temperature (25-30°C) with high humidity (>80%), cloudy weather, staggered planting.",
+    "prevention": "Clip seedling leaf tips before transplanting to eliminate egg masses. Install pheromone traps with Scirpolure @ 8 traps/ha for monitoring. Conserve egg parasitoid Trichogramma japonicum.",
+    "management": "Release Trichogramma japonicum @ 100,000/ha (3 times at weekly intervals). If dead hearts exceed 10% or 1 moth/sq.m ETL, apply Chlorantraniliprole 18.5% SC @ 0.3ml/L or Cartap hydrochloride 4% G @ 20 kg/ha or Flubendiamide 39.35% SC @ 0.2ml/L."
+  },
+  {
+    "pest_name": "Brown Plant Hopper (BPH)",
+    "crop": "Rice",
+    "scientific_name": "Nilaparvata lugens",
+    "identification": "Small brownish insects (2.5-3.0 mm) with distinct black/brown body found crowded at the base of the rice plant just above water level. Both macropterous (long-winged) and brachypterous (short-winged) forms occur.",
+    "symptoms": "Nymphs and adults suck sap from leaf sheath bases. Plants turn yellow, dry out rapidly, and collapse in circular patches in the field, giving a burnt appearance called 'Hopper Burn'. Excretes honeydew leading to sooty mold.",
+    "conditions": "High humidity, warm cloudy weather, stagnant deep water, dense canopy.",
+    "prevention": "Form alleyways (30 cm walking gaps every 2-3 meters) to allow sunlight and aeration. Practice Alternate Wetting and Drying (AWD). Avoid synthetic pyrethroids which cause BPH resurgence.",
+    "management": "Drain water from field for 3-4 days. Spray directed at plant base: Pymetrozine 50% WDG @ 0.6g/L or Triflumezopyrim 10% SC @ 0.5ml/L or Dinotefuran 20% SG @ 0.4g/L."
+  }
+]

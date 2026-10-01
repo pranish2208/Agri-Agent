@@ -1,0 +1,22 @@
+[
+  {
+    "pest_name": "Gram Pod Borer",
+    "crop": "Pulses",
+    "scientific_name": "Helicoverpa armigera",
+    "identification": "Stout caterpillar (3-4 cm) green to brownish-yellow with broken longitudinal stripes along body sides. Moth is yellowish-brown with dark speck on forewings.",
+    "symptoms": "Young larvae feed on tender foliage and flower buds. Later instars bore circular holes into developing pods, thrusting the anterior half of their body inside while the posterior remains outside. Pods are emptied of seeds.",
+    "conditions": "Intermittent warm days and cloudy nights during flowering and pod setting stages.",
+    "prevention": "Install pheromone traps @ 5 traps/acre for adult monitoring. Erect bird perches (T-shaped bamboo sticks @ 20/acre) to encourage insectivorous birds (drongos, mynas). Grow coriander or marigold as trap/border crops.",
+    "management": "Spray HaNPV (Helicoverpa Nuclear Polyhedrosis Virus) @ 250 LE/ha + 0.1% jaggery in evening hours. If pod damage exceeds 5% ETL, spray Chlorantraniliprole 18.5% SC @ 0.3ml/L or Emamectin benzoate 5% SG @ 0.4g/L or Flubendiamide 39.35% SC @ 0.2ml/L."
+  },
+  {
+    "pest_name": "Spotted Pod Borer",
+    "crop": "Pulses",
+    "scientific_name": "Maruca vitrata",
+    "identification": "Larva is greenish-white with distinctive dark brown/black pairs of spots arranged in two rows along the dorsal surface of each body segment.",
+    "symptoms": "Larvae web together leaves, flower buds, flowers, and young pods into a messy tangled cluster with silken threads, and feed safely concealed inside. Excreta/frass accumulates in the webbing.",
+    "conditions": "High humidity, warm cloudy weather during flowering stage.",
+    "prevention": "Avoid closely spaced plantings. Prune excess vegetative branches to open up canopy.",
+    "management": "Spray high-pressure foliar spray directed into flower clusters: Chlorantraniliprole 18.5% SC @ 0.3ml/L or Novaluron 10% EC @ 1.5ml/L or Spinosad 45% SC @ 0.3ml/L."
+  }
+]
